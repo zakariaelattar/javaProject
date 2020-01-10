@@ -1,0 +1,23 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.button:hover {
+    -fx-opacity : 0.8;
+    
+}
+#close:hover {
+    -fx-opacity : 0.8;
+    -fx-scale-y : 0.9;
+    -fx-background-color: #ee3333;
+    
+}
+
+.button:pressed {
+    -fx-scale-y: 0.98;
+    -fx-scale-x: 0.98;
+    -fx-opacity : 0.5;
+    
+}
+.button {
+-fx-background-color: #355c7d;
+	
+}

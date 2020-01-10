@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="root" maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Pane prefHeight="400.0" prefWidth="271.0" style="-fx-background-color: #355c7d;">
+               <children>
+                  <ImageView fitHeight="177.0" fitWidth="235.0" layoutX="12.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../javaproject/images/Untitled-5.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane prefHeight="400.0" prefWidth="329.0" style="-fx-background-color: #eeeeee;">
+               <children>
+                  <Button fx:id="connexion" alignment="CENTER" layoutX="100.0" layoutY="286.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Login" textFill="WHITE" />
+                  <TextField fx:id="email" alignment="CENTER" layoutX="71.0" layoutY="180.0" prefHeight="26.0" prefWidth="202.0" />
+                  <PasswordField fx:id="password" layoutX="71.0" layoutY="246.0" prefHeight="25.0" prefWidth="202.0" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="72.0" layoutY="159.0" text="Email      :" textAlignment="CENTER" textOverrun="CLIP" />
+                  <Label fx:id="lbTest" alignment="CENTER" contentDisplay="CENTER" layoutX="71.0" layoutY="221.0" text="Password :" textAlignment="CENTER" textOverrun="CLIP" />
+                  <ImageView fitHeight="81.0" fitWidth="82.0" layoutX="131.0" layoutY="49.0" pickOnBounds="true" smooth="false">
+                     <image>
+                        <Image url="@../../../javaproject/images/icon.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="close" layoutX="300.0" layoutY="-2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minWidth="30.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="30.0" text="x" textFill="WHITE" />
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
